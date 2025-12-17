@@ -1,0 +1,104 @@
+body
+{
+    background: url('background.jpg') center / contain no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.book
+{
+    padding-left: 700px;
+    padding-right: 700px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.heading
+{
+    padding-top: 20px;
+    font-style: Montserrat;
+    color: rgb(55, 41, 67);
+    padding-left: 25px;
+}
+.content
+{
+    font-size: 16px;
+    text-align: center;
+    text-align: justify;
+    padding-left: 25px;
+    font-style:inherit
+}
+span
+{
+    background-color: yellow;
+}
+.quote-box
+{
+    margin: 15px 0;
+    padding: 15px 15px;
+    background: rgb(105, 97, 97);
+    border-left: 6px solid rgb(147, 241, 15);
+    font-style: italic;
+}
+.author-text 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    
+}
+
+.author-box 
+{
+    display: flex;
+    gap: 8px;
+    background: cyan;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: justify;
+    align-items: center;
+}
+.author-img 
+{
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    background-image: url('mahendiran.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.author-name 
+{
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer 
+{
+    margin-top: auto;
+    background-color:rgb(54, 139, 158);
+    color: rgb(38, 37, 36);
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left 
+{
+    display: flex;
+    flex-direction: column;
+}
+.printed
+{
+    font-size: 14px;
+}
+.price 
+{
+    font-weight: bold;
+    color: rgb(168, 236, 33);
+    font-size: 18px;
+}
